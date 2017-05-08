@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots TestComponent TestComponent render 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="string"
+  >
+    String is 
+  </div>
+  <div
+    className="number"
+  >
+    Number is 
+  </div>
+</div>
+`;

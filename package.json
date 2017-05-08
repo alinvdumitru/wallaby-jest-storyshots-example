@@ -1,0 +1,46 @@
+{
+  "name": "wallaby-jest-snapshots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "jest": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallabyjs/wallaby-jest-snapshots.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/wallaby-jest-snapshots/issues"
+  },
+  "homepage": "https://github.com/wallabyjs/wallaby-jest-snapshots#readme",
+  "dependencies": {
+    "jest": "^19.0.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "@kadira/storybook": "^2.21.0",
+    "storyshots": "^3.2.2"
+  },
+  "jest": {
+    "globals": {
+      "__JEST__": true
+    },
+    "modulePaths": [
+      "src"
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
